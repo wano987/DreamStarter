@@ -12,5 +12,5 @@ function FN($logic,$data,$type)
 
 FN('init','','');//load all vars to $sys
 
-echo = FN('mandate',$sys['init']['order'],$sys['ui']);//mandates a list and sens it's result to some renderer with consequenses (like caching);
+echo FN('mandate',$sys['init']['order'],$sys['ui']);//mandates a list and sens it's result to some renderer with consequenses (like caching);
 ?>
