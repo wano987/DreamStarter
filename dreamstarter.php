@@ -1,7 +1,7 @@
 <?php //17.13.1 DreamStarter 2.5 minimal core
 
-$sys['core_path']='';
-$sys['core_url']='';
+$sys['core_path']=$_SERVER['DOCUMENT_ROOT'];
+$sys['core_url']=$_SERVER['HTTP_HOST'];
 
 function FN($logic,$data,$type)
 {
